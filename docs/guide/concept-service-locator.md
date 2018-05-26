@@ -36,7 +36,7 @@ $locator->set('db', [
 
 // register "search" using an anonymous function that builds a component
 $locator->set('search', function () {
-    return new app\components\SolrService;
+    return new \app\components\SolrService;
 });
 
 // register "pageCache" using a component
