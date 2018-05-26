@@ -36,7 +36,7 @@ $locator->set('db', [
 
 // 通过一个能返回该组件的匿名函数，注册 "search" 组件。
 $locator->set('search', function () {
-    return new app\components\SolrService;
+    return new \app\components\SolrService;
 });
 
 // 用组件注册 "pageCache" 组件
